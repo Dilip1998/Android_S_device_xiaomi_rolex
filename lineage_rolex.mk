@@ -32,6 +32,10 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi 4A
 PRODUCT_NAME := lineage_rolex
 
+#apn
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/apns-conf.xml:system/etc/apns-conf.xml
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 TARGET_VENDOR_PRODUCT_NAME := rolex
