@@ -50,3 +50,6 @@ BUILD_FINGERPRINT := Xiaomi/rolex/rolex:7.1.2/N2G47H/V9.2.6.0.NCCMIEK:user/relea
 
 # Sound picker fix
 TARGET_USE_OLD_SOUND_PICKER := true
+
+# Target bootanimation
+TARGET_BOOT_ANIMATION_RES := 720
