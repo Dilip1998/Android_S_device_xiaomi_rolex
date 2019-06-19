@@ -100,13 +100,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.egl.hw=0 \
     debug.hwui.use_buffer_age=false \
-    debug.sf.hw=0 \
     debug.egl.hw=1 \
     debug.gralloc.gfx_ubwc_disable=0 \
     debug.hwui.use_buffer_age=false \
     debug.sdm.support_writeback=0 \
+    debug.egl.hw=1 \
+    vendor.gralloc.enable_fb_ubwc=1 \
+    debug.enable.sglscale=1 \
+    debug.hwui.use_buffer_age=false \
     debug.sf.hw=1 \
     debug.sf.latch_unsignaled=1 \
     debug.sf.recomputecrop=0 \
