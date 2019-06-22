@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "evo-devices",
+    "repository": "Evolution-X-Devices/device_xiaomi_rolex",
+    "target_path": "device/xiaomi/rolex",
+    "branch": "evo-pie"
+  },
+  {
+    "remote": "evo-devices",
+    "repository": "Evolution-X-Devices/vendor_xiaomi_rolex",
+    "target_path": "vendor/xiaomi",
+    "branch": "evo-pie"
+  },
+  {
+    "remote": "evo-devices",
+    "repository": "Evolution-X-Devices/kernel_xiaomi_msm8917",
+    "target_path": "kernel/xiaomi/msm8917",
+    "branch": "evo-pie"
+  }
+]
