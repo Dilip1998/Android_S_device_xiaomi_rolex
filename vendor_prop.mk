@@ -101,7 +101,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.hwui.use_buffer_age=false \
-    debug.egl.hw=1 \
     debug.gralloc.gfx_ubwc_disable=0 \
     debug.hwui.use_buffer_age=false \
     debug.sdm.support_writeback=0 \
