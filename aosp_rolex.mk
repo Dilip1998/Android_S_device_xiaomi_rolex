@@ -27,6 +27,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 CUSTOM_BUILD_TYPE := OFFICIAL
 TARGET_DENSITY := xhdpi
+IS_PHONE=true
 
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
