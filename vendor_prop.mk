@@ -82,7 +82,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196608 \
     ro.vendor.display.cabl=2 \
-    ro.sf.lcd_density=270 \
+    ro.sf.lcd_density=280 \
     vendor.display.enable_default_color_mode=1
 
 # Fm
@@ -104,11 +104,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.gralloc.gfx_ubwc_disable=0 \
     debug.hwui.use_buffer_age=false \
     debug.sdm.support_writeback=0 \
-    debug.egl.hw=0 \
+    debug.egl.hw=1 \
     vendor.gralloc.enable_fb_ubwc=1 \
     debug.enable.sglscale=1 \
     debug.hwui.use_buffer_age=false \
-    debug.sf.hw=0 \
+    debug.sf.hw=1 \
     debug.sf.latch_unsignaled=1 \
     debug.sf.recomputecrop=0 \
     dev.pm.dyn_samplingrate=1 \
