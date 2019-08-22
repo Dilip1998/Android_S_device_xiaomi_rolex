@@ -21,13 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Inherit some common stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
-# Inherit some common evolution-X stuffs
-TARGET_GAPPS_ARCH := arm64
-CUSTOM_BUILD_TYPE := OFFICIAL
-TARGET_DENSITY := xhdpi
-IS_PHONE=true
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -36,7 +30,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := rolex
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi 4A
-PRODUCT_NAME := aosp_rolex
+PRODUCT_NAME := lineage_rolex
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
@@ -49,10 +43,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := Xiaomi/rolex/rolex:7.1.2/N2G47H/V9.2.6.0.NCCMIEK:user/release-keys
 
-# Sound picker fix
-TARGET_USE_OLD_SOUND_PICKER := true
-
-# Target bootanimation
-
-TARGET_BOOT_ANIMATION_RES := 720
-TARGET_BOOT_ANIMATION_RES_EVO := true
